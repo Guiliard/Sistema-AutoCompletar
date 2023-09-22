@@ -1,0 +1,1956 @@
+
+----------INPUT 1----------
+
+Palavra a ser pesquisada no texto: teoria
+A palavra teoria foi encontrada 176 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: mundo ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+
+Pre-Ordem:
+Palavra: virtual ---  frequência: 93
+Palavra: realidade ---  frequência: 91
+Palavra: assim ---  frequência: 94
+Palavra: sentido ---  frequência: 110
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: pensamento ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: mundo ---  frequência: 134
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: modo ---  frequência: 129
+Palavra: sujeito ---  frequência: 145
+
+Pos-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: É ---  frequência: 96
+Palavra: quanto ---  frequência: 95
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: priori ---  frequência: 125
+Palavra: sujeito ---  frequência: 145
+Palavra: mundo ---  frequência: 134
+Palavra: pensamento ---  frequência: 115
+Palavra: sentido ---  frequência: 110
+Palavra: assim ---  frequência: 94
+Palavra: virtual ---  frequência: 93
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: mundo ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+
+Pre-Ordem:
+Palavra: sentido ---  frequência: 110
+Palavra: quanto ---  frequência: 95
+Palavra: assim ---  frequência: 94
+Palavra: virtual ---  frequência: 93
+Palavra: realidade ---  frequência: 91
+Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: pensamento ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: mundo ---  frequência: 134
+Palavra: modo ---  frequência: 129
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+
+Pos-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: assim ---  frequência: 94
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: É ---  frequência: 96
+Palavra: quanto ---  frequência: 95
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: modo ---  frequência: 129
+Palavra: sujeito ---  frequência: 145
+Palavra: mundo ---  frequência: 134
+Palavra: pensamento ---  frequência: 115
+Palavra: sentido ---  frequência: 110
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: mundo ---  frequência: 134
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Pre-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: mundo ---  frequência: 134
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Pos-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: mundo ---  frequência: 134
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Palavra a ser pesquisada no texto: mundo
+A palavra mundo foi encontrada 134 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: teoria ---  frequência: 176
+
+Pre-Ordem:
+Palavra: virtual ---  frequência: 93
+Palavra: realidade ---  frequência: 91
+Palavra: assim ---  frequência: 94
+Palavra: sentido ---  frequência: 110
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: pensamento ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: teoria ---  frequência: 176
+Palavra: sujeito ---  frequência: 145
+Palavra: condição ---  frequência: 134
+Palavra: modo ---  frequência: 129
+
+Pos-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: É ---  frequência: 96
+Palavra: quanto ---  frequência: 95
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: teoria ---  frequência: 176
+Palavra: priori ---  frequência: 125
+Palavra: pensamento ---  frequência: 115
+Palavra: sentido ---  frequência: 110
+Palavra: assim ---  frequência: 94
+Palavra: virtual ---  frequência: 93
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: teoria ---  frequência: 176
+
+Pre-Ordem:
+Palavra: sentido ---  frequência: 110
+Palavra: assim ---  frequência: 94
+Palavra: virtual ---  frequência: 93
+Palavra: realidade ---  frequência: 91
+Palavra: quanto ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: pensamento ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: sujeito ---  frequência: 145
+Palavra: modo ---  frequência: 129
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: teoria ---  frequência: 176
+
+Pos-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: É ---  frequência: 96
+Palavra: quanto ---  frequência: 95
+Palavra: assim ---  frequência: 94
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: modo ---  frequência: 129
+Palavra: teoria ---  frequência: 176
+Palavra: sujeito ---  frequência: 145
+Palavra: pensamento ---  frequência: 115
+Palavra: sentido ---  frequência: 110
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: teoria ---  frequência: 176
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Pre-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: teoria ---  frequência: 176
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Pos-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: teoria ---  frequência: 176
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Palavra a ser pesquisada no texto: software
+A palavra software não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: tecnologia
+A palavra tecnologia não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: empreendedorismo
+A palavra empreendedorismo não foi encontrada no texto...
+
+----------INPUT 2----------
+
+Palavra a ser pesquisada no texto: teoria
+A palavra teoria foi encontrada 192 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: mundo ---  frequência: 144
+Palavra: priori ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+
+Pre-Ordem:
+Palavra: respeito ---  frequência: 90
+Palavra: infinito ---  frequência: 89
+Palavra: wittgenstein ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: vista ---  frequência: 95
+Palavra: sentido ---  frequência: 111
+Palavra: pode ---  frequência: 96
+Palavra: imanente ---  frequência: 109
+Palavra: princípio ---  frequência: 97
+Palavra: sistema ---  frequência: 119
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 144
+Palavra: modo ---  frequência: 129
+Palavra: mundo ---  frequência: 144
+Palavra: condição ---  frequência: 133
+Palavra: sujeito ---  frequência: 149
+
+Pos-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: vista ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: pode ---  frequência: 96
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: segundo ---  frequência: 114
+Palavra: condição ---  frequência: 133
+Palavra: mundo ---  frequência: 144
+Palavra: modo ---  frequência: 129
+Palavra: sujeito ---  frequência: 149
+Palavra: priori ---  frequência: 144
+Palavra: sistema ---  frequência: 119
+Palavra: sentido ---  frequência: 111
+Palavra: wittgenstein ---  frequência: 95
+Palavra: respeito ---  frequência: 90
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: mundo ---  frequência: 144
+Palavra: priori ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+
+Pre-Ordem:
+Palavra: segundo ---  frequência: 114
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 95
+Palavra: respeito ---  frequência: 90
+Palavra: infinito ---  frequência: 89
+Palavra: É ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: sentido ---  frequência: 111
+Palavra: princípio ---  frequência: 97
+Palavra: pode ---  frequência: 96
+Palavra: imanente ---  frequência: 109
+Palavra: sobre ---  frequência: 114
+Palavra: modo ---  frequência: 129
+Palavra: sistema ---  frequência: 119
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 144
+Palavra: mundo ---  frequência: 144
+Palavra: condição ---  frequência: 133
+Palavra: sujeito ---  frequência: 149
+
+Pos-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: maneira ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: vista ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: imanente ---  frequência: 109
+Palavra: princípio ---  frequência: 97
+Palavra: sobre ---  frequência: 114
+Palavra: sentido ---  frequência: 111
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: condição ---  frequência: 133
+Palavra: mundo ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: priori ---  frequência: 144
+Palavra: modo ---  frequência: 129
+Palavra: segundo ---  frequência: 114
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: mundo ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 96
+
+Pre-Ordem:
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: mundo ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 96
+
+Pos-Ordem:
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: mundo ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 96
+
+Palavra a ser pesquisada no texto: mundo
+A palavra mundo foi encontrada 144 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: teoria ---  frequência: 192
+
+Pre-Ordem:
+Palavra: respeito ---  frequência: 90
+Palavra: infinito ---  frequência: 89
+Palavra: wittgenstein ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: vista ---  frequência: 95
+Palavra: sentido ---  frequência: 111
+Palavra: pode ---  frequência: 96
+Palavra: imanente ---  frequência: 109
+Palavra: princípio ---  frequência: 97
+Palavra: sistema ---  frequência: 119
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 144
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: teoria ---  frequência: 192
+Palavra: sujeito ---  frequência: 149
+
+Pos-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: vista ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: pode ---  frequência: 96
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: segundo ---  frequência: 114
+Palavra: condição ---  frequência: 133
+Palavra: modo ---  frequência: 129
+Palavra: sujeito ---  frequência: 149
+Palavra: teoria ---  frequência: 192
+Palavra: priori ---  frequência: 144
+Palavra: sistema ---  frequência: 119
+Palavra: sentido ---  frequência: 111
+Palavra: wittgenstein ---  frequência: 95
+Palavra: respeito ---  frequência: 90
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: teoria ---  frequência: 192
+
+Pre-Ordem:
+Palavra: segundo ---  frequência: 114
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 95
+Palavra: respeito ---  frequência: 90
+Palavra: infinito ---  frequência: 89
+Palavra: É ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: sentido ---  frequência: 111
+Palavra: princípio ---  frequência: 97
+Palavra: pode ---  frequência: 96
+Palavra: imanente ---  frequência: 109
+Palavra: sobre ---  frequência: 114
+Palavra: modo ---  frequência: 129
+Palavra: sistema ---  frequência: 119
+Palavra: pensamento ---  frequência: 115
+Palavra: sujeito ---  frequência: 149
+Palavra: priori ---  frequência: 144
+Palavra: condição ---  frequência: 133
+Palavra: teoria ---  frequência: 192
+
+Pos-Ordem:
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: maneira ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: vista ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: imanente ---  frequência: 109
+Palavra: princípio ---  frequência: 97
+Palavra: sobre ---  frequência: 114
+Palavra: sentido ---  frequência: 111
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: teoria ---  frequência: 192
+Palavra: sujeito ---  frequência: 149
+Palavra: modo ---  frequência: 129
+Palavra: segundo ---  frequência: 114
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: teoria ---  frequência: 192
+
+Pre-Ordem:
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: teoria ---  frequência: 192
+
+Pos-Ordem:
+Palavra: princípio ---  frequência: 97
+Palavra: imanente ---  frequência: 109
+Palavra: sentido ---  frequência: 111
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: pensamento ---  frequência: 115
+Palavra: sistema ---  frequência: 119
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 133
+Palavra: priori ---  frequência: 144
+Palavra: sujeito ---  frequência: 149
+Palavra: infinito ---  frequência: 89
+Palavra: respeito ---  frequência: 90
+Palavra: vista ---  frequência: 95
+Palavra: possível ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: É ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 96
+Palavra: teoria ---  frequência: 192
+
+Palavra a ser pesquisada no texto: software
+A palavra software não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: tecnologia
+A palavra tecnologia não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: empreendedorismo
+A palavra empreendedorismo não foi encontrada no texto...
+
+----------INPUT 3----------
+
+Palavra a ser pesquisada no texto: teoria
+A palavra teoria não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: mundo
+A palavra mundo foi encontrada 67 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: condições ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: formação ---  frequência: 133
+Palavra: quadros ---  frequência: 134
+Palavra: formas ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: modo ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: melhoria ---  frequência: 134
+Palavra: assim ---  frequência: 199
+Palavra: sentido ---  frequência: 200
+Palavra: processo ---  frequência: 200
+
+Pre-Ordem:
+Palavra: formação ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: condições ---  frequência: 133
+Palavra: melhoria ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: modo ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: formas ---  frequência: 134
+Palavra: quadros ---  frequência: 134
+Palavra: assim ---  frequência: 199
+Palavra: processo ---  frequência: 200
+Palavra: sentido ---  frequência: 200
+
+Pos-Ordem:
+Palavra: condições ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: quadros ---  frequência: 134
+Palavra: formas ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: modo ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: sentido ---  frequência: 200
+Palavra: processo ---  frequência: 200
+Palavra: assim ---  frequência: 199
+Palavra: melhoria ---  frequência: 134
+Palavra: formação ---  frequência: 133
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: condições ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: formação ---  frequência: 133
+Palavra: quadros ---  frequência: 134
+Palavra: formas ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: modo ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: melhoria ---  frequência: 134
+Palavra: assim ---  frequência: 199
+Palavra: sentido ---  frequência: 200
+Palavra: processo ---  frequência: 200
+
+Pre-Ordem:
+Palavra: modo ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: formação ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: condições ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: formas ---  frequência: 134
+Palavra: quadros ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: assim ---  frequência: 199
+Palavra: É ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: melhoria ---  frequência: 134
+Palavra: processo ---  frequência: 200
+Palavra: sentido ---  frequência: 200
+
+Pos-Ordem:
+Palavra: condições ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: quadros ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: formas ---  frequência: 134
+Palavra: formação ---  frequência: 133
+Palavra: informações ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: melhoria ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: sentido ---  frequência: 200
+Palavra: processo ---  frequência: 200
+Palavra: assim ---  frequência: 199
+Palavra: modo ---  frequência: 134
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: podemos ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: assim ---  frequência: 199
+Palavra: processo ---  frequência: 200
+Palavra: sentido ---  frequência: 200
+Palavra: condições ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: formação ---  frequência: 133
+Palavra: formas ---  frequência: 134
+Palavra: quadros ---  frequência: 134
+Palavra: melhoria ---  frequência: 134
+Palavra: modo ---  frequência: 134
+
+Pre-Ordem:
+Palavra: podemos ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: assim ---  frequência: 199
+Palavra: processo ---  frequência: 200
+Palavra: sentido ---  frequência: 200
+Palavra: condições ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: formação ---  frequência: 133
+Palavra: formas ---  frequência: 134
+Palavra: quadros ---  frequência: 134
+Palavra: melhoria ---  frequência: 134
+Palavra: modo ---  frequência: 134
+
+Pos-Ordem:
+Palavra: podemos ---  frequência: 134
+Palavra: necessidade ---  frequência: 134
+Palavra: É ---  frequência: 134
+Palavra: pode ---  frequência: 134
+Palavra: estabelecimento ---  frequência: 134
+Palavra: impacto ---  frequência: 134
+Palavra: importância ---  frequência: 134
+Palavra: sistema ---  frequência: 134
+Palavra: informações ---  frequência: 134
+Palavra: assim ---  frequência: 199
+Palavra: processo ---  frequência: 200
+Palavra: sentido ---  frequência: 200
+Palavra: condições ---  frequência: 133
+Palavra: funcionais ---  frequência: 133
+Palavra: determinação ---  frequência: 133
+Palavra: formação ---  frequência: 133
+Palavra: formas ---  frequência: 134
+Palavra: quadros ---  frequência: 134
+Palavra: melhoria ---  frequência: 134
+Palavra: modo ---  frequência: 134
+
+Palavra a ser pesquisada no texto: software
+A palavra software não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: tecnologia
+A palavra tecnologia não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: empreendedorismo
+A palavra empreendedorismo não foi encontrada no texto...
+
+----------INPUT 4----------
+
+Palavra a ser pesquisada no texto: teoria
+A palavra teoria não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: mundo
+A palavra mundo não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: software
+A palavra software não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: tecnologia
+A palavra tecnologia não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: empreendedorismo
+A palavra empreendedorismo não foi encontrada no texto...
+
+----------INPUT 5----------
+
+Palavra a ser pesquisada no texto: teoria
+A palavra teoria não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: mundo
+A palavra mundo foi encontrada 67 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: software ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: sistema ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 399
+
+Pre-Ordem:
+Palavra: integridade ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: software ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: causa ---  frequência: 134
+Palavra: melhor ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: assim ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: hardware ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: utilização ---  frequência: 399
+Palavra: segurança ---  frequência: 268
+
+Pos-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: software ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: sistema ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: assim ---  frequência: 199
+Palavra: impacto ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 399
+Palavra: implantação ---  frequência: 266
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 200
+Palavra: integridade ---  frequência: 134
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: software ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: sistema ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 399
+
+Pre-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: integridade ---  frequência: 134
+Palavra: software ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: causa ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: sistema ---  frequência: 200
+Palavra: tempo ---  frequência: 199
+Palavra: hardware ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: aumento ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: segurança ---  frequência: 268
+Palavra: implantação ---  frequência: 266
+Palavra: utilização ---  frequência: 399
+
+Pos-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: software ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: aumento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: integridade ---  frequência: 134
+Palavra: impacto ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: melhor ---  frequência: 200
+Palavra: implantação ---  frequência: 266
+Palavra: utilização ---  frequência: 399
+Palavra: segurança ---  frequência: 268
+Palavra: dados ---  frequência: 201
+Palavra: desenvolvimento ---  frequência: 200
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: software ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: utilização ---  frequência: 399
+
+Pre-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: software ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: utilização ---  frequência: 399
+
+Pos-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: software ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: utilização ---  frequência: 399
+
+Palavra a ser pesquisada no texto: software
+A palavra software foi encontrada 134 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: vez ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: sistema ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 399
+
+Pre-Ordem:
+Palavra: integridade ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: vez ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: causa ---  frequência: 134
+Palavra: melhor ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: assim ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: hardware ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: utilização ---  frequência: 399
+Palavra: segurança ---  frequência: 268
+
+Pos-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: vez ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: sistema ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: assim ---  frequência: 199
+Palavra: impacto ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 399
+Palavra: implantação ---  frequência: 266
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 200
+Palavra: integridade ---  frequência: 134
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: vez ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: sistema ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 399
+
+Pre-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: integridade ---  frequência: 134
+Palavra: vez ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: causa ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: sistema ---  frequência: 200
+Palavra: tempo ---  frequência: 199
+Palavra: hardware ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: aumento ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: segurança ---  frequência: 268
+Palavra: implantação ---  frequência: 266
+Palavra: utilização ---  frequência: 399
+
+Pos-Ordem:
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: vez ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: aumento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: integridade ---  frequência: 134
+Palavra: impacto ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: melhor ---  frequência: 200
+Palavra: implantação ---  frequência: 266
+Palavra: utilização ---  frequência: 399
+Palavra: segurança ---  frequência: 268
+Palavra: dados ---  frequência: 201
+Palavra: desenvolvimento ---  frequência: 200
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: vez ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: utilização ---  frequência: 399
+
+Pre-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: vez ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: utilização ---  frequência: 399
+
+Pos-Ordem:
+Palavra: desenvolvimento ---  frequência: 200
+Palavra: sistema ---  frequência: 200
+Palavra: melhor ---  frequência: 200
+Palavra: aumento ---  frequência: 200
+Palavra: impacto ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: informações ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: novas ---  frequência: 201
+Palavra: implantação ---  frequência: 266
+Palavra: causa ---  frequência: 134
+Palavra: podemos ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: vez ---  frequência: 134
+Palavra: sistemas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: hardware ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: assim ---  frequência: 199
+Palavra: utilização ---  frequência: 399
+
+Palavra a ser pesquisada no texto: tecnologia
+A palavra tecnologia não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: empreendedorismo
+A palavra empreendedorismo não foi encontrada no texto...
+
+----------INPUT 6----------
+
+Palavra a ser pesquisada no texto: teoria
+A palavra teoria não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: mundo
+A palavra mundo foi encontrada 67 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: hardware ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 400
+
+Pre-Ordem:
+Palavra: serviços ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: sobre ---  frequência: 134
+Palavra: sistema ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: impacto ---  frequência: 199
+Palavra: ti ---  frequência: 201
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: assim ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: utilização ---  frequência: 400
+Palavra: segurança ---  frequência: 268
+
+Pos-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: hardware ---  frequência: 200
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 400
+Palavra: implantação ---  frequência: 267
+Palavra: ti ---  frequência: 201
+Palavra: sistema ---  frequência: 199
+Palavra: serviços ---  frequência: 134
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: hardware ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 400
+
+Pre-Ordem:
+Palavra: hardware ---  frequência: 200
+Palavra: serviços ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: sobre ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: novas ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: segurança ---  frequência: 268
+Palavra: implantação ---  frequência: 267
+Palavra: utilização ---  frequência: 400
+
+Pos-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: serviços ---  frequência: 134
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: utilização ---  frequência: 400
+Palavra: segurança ---  frequência: 268
+Palavra: ti ---  frequência: 201
+Palavra: hardware ---  frequência: 200
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: utilização ---  frequência: 400
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+
+Pre-Ordem:
+Palavra: utilização ---  frequência: 400
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+
+Pos-Ordem:
+Palavra: utilização ---  frequência: 400
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+
+Palavra a ser pesquisada no texto: software
+A palavra software foi encontrada 134 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: hardware ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 400
+
+Pre-Ordem:
+Palavra: serviços ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: sobre ---  frequência: 134
+Palavra: sistema ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: impacto ---  frequência: 199
+Palavra: ti ---  frequência: 201
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: assim ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: utilização ---  frequência: 400
+Palavra: segurança ---  frequência: 268
+
+Pos-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: hardware ---  frequência: 200
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 400
+Palavra: implantação ---  frequência: 267
+Palavra: ti ---  frequência: 201
+Palavra: sistema ---  frequência: 199
+Palavra: serviços ---  frequência: 134
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: hardware ---  frequência: 200
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: ti ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: segurança ---  frequência: 268
+Palavra: utilização ---  frequência: 400
+
+Pre-Ordem:
+Palavra: hardware ---  frequência: 200
+Palavra: serviços ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: sobre ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: novas ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: segurança ---  frequência: 268
+Palavra: implantação ---  frequência: 267
+Palavra: utilização ---  frequência: 400
+
+Pos-Ordem:
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: dúvidas ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: informações ---  frequência: 200
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: serviços ---  frequência: 134
+Palavra: dados ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: utilização ---  frequência: 400
+Palavra: segurança ---  frequência: 268
+Palavra: ti ---  frequência: 201
+Palavra: hardware ---  frequência: 200
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: utilização ---  frequência: 400
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+
+Pre-Ordem:
+Palavra: utilização ---  frequência: 400
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+
+Pos-Ordem:
+Palavra: utilização ---  frequência: 400
+Palavra: hardware ---  frequência: 200
+Palavra: informações ---  frequência: 200
+Palavra: ti ---  frequência: 201
+Palavra: aumento ---  frequência: 201
+Palavra: dados ---  frequência: 201
+Palavra: melhor ---  frequência: 201
+Palavra: assim ---  frequência: 201
+Palavra: implantação ---  frequência: 267
+Palavra: dúvidas ---  frequência: 134
+Palavra: redes ---  frequência: 134
+Palavra: segurança ---  frequência: 268
+Palavra: sobre ---  frequência: 134
+Palavra: integridade ---  frequência: 134
+Palavra: serviços ---  frequência: 134
+Palavra: impacto ---  frequência: 199
+Palavra: sistema ---  frequência: 199
+Palavra: novas ---  frequência: 199
+Palavra: desenvolvimento ---  frequência: 199
+Palavra: tempo ---  frequência: 199
+
+Palavra a ser pesquisada no texto: tecnologia
+A palavra tecnologia não foi encontrada no texto...
+
+Palavra a ser pesquisada no texto: empreendedorismo
+A palavra empreendedorismo não foi encontrada no texto...
