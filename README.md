@@ -10,12 +10,14 @@
 <img src="https://github.com/Guiliard/Sistema-AutoCompletar/assets/127882640/81df55e3-31a0-4662-a292-30669decaa6f.png" width="850px">
 </div>
 
-<p> <strong> Feito com <a href="https://github.com/IagoVinicius12"> IagoVinicius12 </a> </strong> </p>
-<a href="https://github.com/LuanLuL/AEDS---Top_K_Itens" target="_blank">Top K itens</a>
-
 # Introdução
 
+Foi proposto um problema de sugestão de dados em base aos <i>K</i> itens mais valiosos de um conjunto de informações. Nessa situação, os grupos de dados são arquivos que contém textos sem formatação (Arquivos ASCII), e os itens são palavras. A partir dessa busca, tais elementos são utilizados para criar um sistema autocompletar, permitindo que o usuário busque palavras específicas, e tenha as <i>K</i> palavras mais frequêntes como retorno. A partir disso, pressupoê-se que estruturas de dados complexas sejam devidamente operadas, bem como as estruturas auxiliares e variáveis que contribuem para a resolução do problema.
+<p>Vale ressaltar que esse trabalho é uma continuação do projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a>, seguindo as regras e diretrizes especificadas nele.
+
 # Descrição do Problema
+
+Em múltiplos arquivos ".data", encontram-se conjuntos de dados (textos), os quais devem ser lidos e tokenizados (separados em palavras). A partir disso, deve-se fornecer para o programa, como entrada, em um arquivo nomeado como "palavras.txt", as palavras que serão pesquisadas pelo usuário. Com tais informações, se, em um texto, existir aquela palavra pesquisada, todo o processo descrito no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a> deve ser construído. Após isso, as  as <i>K</i> palavras mais frequêntes devem ser armazedas em 3 diferentes estruturas de dados complexas: Árvore Binária, Árvore AVL e Árvore de Huffman, cada uma seguindo 
 
 # Solução Proposta
 
@@ -50,7 +52,7 @@ Um arquivo Makefile que realiza todo o procedimento de compilação e execução
 
 # Referências
 
-[1] MAIOLI, DOUGLAS - Repositório GitHub, @professordouglasmaioli: Árvore AVL - Disponível em: https://github.com/professordouglasmaioli/Estrutura-de-Dados. Acessado em 19 de Setembro de 2023.
+[1] MAIOLI, DOUGLAS - Repositório GitHub, @professordouglasmaioli: Árvore AVL - Disponível em: https://github.com/professordouglasmaioli. Acessado em 19 de Setembro de 2023.
 
 [2] CORMEN, T. H. et al. Introduction to Algorithms, third edition. [s.l.] MIT Press, 2012. Acessado em 01 de Março de 2023.
 
