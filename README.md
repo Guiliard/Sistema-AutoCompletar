@@ -17,7 +17,13 @@ Foi proposto um problema de sugestão de dados em base aos <i>K</i> itens mais v
 
 # Descrição do Problema
 
-Em múltiplos arquivos ".data", encontram-se conjuntos de dados (textos), os quais devem ser lidos e tokenizados (separados em palavras). A partir disso, deve-se fornecer para o programa, como entrada, em um arquivo nomeado como "palavras.txt", as palavras que serão pesquisadas pelo usuário. Com tais informações, se, em um texto, existir aquela palavra pesquisada, todo o processo descrito no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a> deve ser construído. Após isso, as  as <i>K</i> palavras mais frequêntes devem ser armazedas em 3 diferentes estruturas de dados complexas: Árvore Binária, Árvore AVL e Árvore de Huffman, cada uma seguindo 
+Em múltiplos arquivos ".data", encontram-se conjuntos de dados (textos), os quais devem ser lidos e tokenizados (separados em palavras). A partir disso, deve-se fornecer para o programa, como entrada, em um arquivo nomeado como "palavras.txt", as palavras que serão pesquisadas pelo usuário. Com tais informações, se, em um texto, existir aquela palavra pesquisada, todo o processo descrito no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a> deve ser construído. Após isso, as  as <i>K</i> palavras mais frequêntes devem ser armazedas em 3 diferentes estruturas de dados complexas: Árvore Binária, Árvore AVL e Árvore de <i>Huffman</i>, com cada uma possuindo suas peculariedas. 
+
+Para o processo de leitura, considera-se as mesmas regras descritas no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a>. 
+
+Para o processo de saída, vale-se das mesmas regras, contudo, acrescidas de tais informações:
+- Construção lógica das 3 Árvores (as quais serão explicadas posteriormente).
+- Especificação da palavra pesquisada no momento.
 
 # Solução Proposta
 
