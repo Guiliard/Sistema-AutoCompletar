@@ -182,14 +182,34 @@ void Leitor :: Verifica (unordered_map <string, word> tabela, short int num_text
 ```
 - Detalhamento da função ```Verifica```.
 
-Tendo evidenciado as classes e os códigos adicionados nesse trabalho, volta-se para a explicação de como funciona as 3 estruturas de dados selecionadas: Árvore Binária, Árvore AVL e Árvore <i>Huffman</i>.
+Tendo evidenciado as classes e os códigos adicionados nesse trabalho, volta-se para a explicação de como funciona as 3 estruturas de dados que compõe a solução proposta: Árvore Binária, Árvore AVL e Árvore <i>Huffman</i>.
 
 <strong><h4>Explicação - Árvore Binaria :</h4></strong>
 
 Uma árvore binária é uma estrutura de dados hierárquica baseada em divisão e conquista utilizada para armazenamento e pesquisa de dados, onde cada nó(dado) pode ter, no máximo, dois filhos: um à esquerda e um à direita, sendo os filhos da esquerda menores do que o nó pai e os filhos da direita maiores do que o nó pai. É importante ressaltar que o nó inicial é chamado de raiz, e os nós sem filhos são chamados de nós folha. Tal estrutura, assim como todas as árvores, pode ser percorrida em diferentes ordens: in-ordem, pre-ordem e pos-ordem. Vale ressaltar que todos os caminhamentos estão presentes no arquivo "output.data".
 - Custo: <i>O(log * n)</i>, onde <i>n</i> é o número de nós (itens) inseridos na estrutura em árvore, ou seja, <i>K</i>.
 
+<strong><h4>Explicação - Árvore AVL :</h4></strong>
 
+Uma Árvore AVL é uma estrutura de dados de árvore binária balanceada, projetada para manter o equilíbrio da árvore, garantindo que a diferença de altura entre as subárvores da esquerda e da direita de qualquer nó (chamada de fator de balanceamento) seja no máximo 1 ou -1. Tal fato contribuí para o desempenho de operações de busca, inserção e remoção em tempo logarítmico. É importante salientar que quando um nó é inserido, a árvore é reequilibrada automaticamente para manter o fator de balanceamento. Sua característica princiapl é responsável por reduzir a probabilidade de degeneração da árvore em uma lista vinculada, mantendo-a balanceada.
+
+<strong>Rotações</strong>
+
+Caso o fator de balanceamento de um nó exceder o limite (de 1 até -1), a árvore não será mais uma AVL, e rotações são usadas para restaurar o equilíbrio. Existem quatro tipos principais de rotações em uma árvore AVL:
+
+<strong> Rotação simples à direita: </strong>
+<p>Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do nó desequilibrado. A rotação à direita reequilibra a árvore movendo o nó desequilibrado para a direita.
+    
+```cpp
+                                               A                        
+                                                \                       A  
+                                                 B         ->         /   \   
+                                                  \                  B     C
+                                                   C                  
+```
+
+
+- Custo: <i>O(log * n)</i>, onde <i>n</i> é o número de nós (itens) inseridos na estrutura em árvore, ou seja, <i>K</i>.
 
 
 # Casos Especiais
