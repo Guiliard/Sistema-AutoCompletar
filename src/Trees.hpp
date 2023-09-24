@@ -75,7 +75,7 @@ class Arvore_AVL
     void Rotacao_dupla_direita_esquerda(folha_avl*& arvore);
     void Rotacao_dupla_esquerda_direita(folha_avl*& arvore);
 
-    void Escolhe_rotação(folha_avl*& arvore);
+    void Escolhe_rotacao(folha_avl*& arvore);
 
     void print_inordem(folha_avl* Raiz_avl, ofstream& out);
     void print_preordem(folha_avl* Raiz_avl, ofstream& out);
