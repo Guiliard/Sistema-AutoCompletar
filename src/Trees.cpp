@@ -115,7 +115,7 @@ void Arvore_AVL :: Inserir_arvore_avl (folha_avl*& Raiz_avl, word keyword, bool&
         if(brota)
             Raiz_avl->fator_balanceamento -= 1;
     }
-    Escolhe_rotação(Raiz_avl);
+    Escolhe_rotacao(Raiz_avl);
     if(brota && Raiz_avl->fator_balanceamento==0)
         brota = false;
 }
@@ -152,7 +152,7 @@ void Arvore_AVL :: Rotacao_dupla_direita_esquerda(folha_avl*& pai)
     Rotacao_simples_esquerda(pai);
 }
 
-void Arvore_AVL :: Escolhe_rotação(folha_avl*& pai)
+void Arvore_AVL :: Escolhe_rotacao(folha_avl*& pai)
 {
     folha_avl* filho;
     folha_avl* neto;
