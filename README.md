@@ -129,14 +129,6 @@ typedef struct folha_huffman
 
 }folha_huffman;
 
-struct comp_huffman
-{
-    constexpr bool operator()(folha_huffman* const& a, folha_huffman* const& b) const noexcept
-    {
-    return a->dado.contador >= b->dado.contador;
-    }
-};
-
 class Arvore_Huffman
 {
     private:
@@ -253,9 +245,20 @@ Com a interconexão de todas essas funções, estruturas e classes, a seleção,
 # Casos Especiais
 
 <strong><h4>Minimos (priority_queue) :</h4></strong>
-Conforme a explicação dada na árvore <i>Huffman</i>, é necessário encontrar os itens com menor frequência, para que esses possam ser armazenados nas folhas que possuem nós internos dados pelas somas de tais frequências. Logo, para se obter esses elementos, necessitou-se escolher um método de ordenação eficiente. Por isso, foi-se utilizada uma fila de prioridades (priority_queue), a qual recebe os dados (itens) de forma desordenada e retorna as palavras em ordem crescente, orientando-se pela frequência de cada uma. Com isso, o processo de seleção das menores recorrências para a construção da árvore <i>Huffman</i> foi construído.
+Conforme a explicação dada na árvore <i>Huffman</i>, é necessário encontrar os itens com menor frequência, para que esses possam ser armazenados nas folhas que possuem nós internos dados pelas somas de tais frequências. Logo, para se obter esses elementos, necessitou-se escolher um método de ordenação eficiente. Por isso, foi-se utilizada uma fila de prioridades (priority_queue), a qual recebe os dados (itens) de forma desordenada e retorna as palavras em ordem crescente, orientando-se pela frequência de cada uma por meio de um <i>operator</i>. Com isso, o processo de seleção das menores recorrências para a construção da árvore <i>Huffman</i> foi construído.
 - Sintaxe: ```priority_queue <folha_huffman*, vector<folha_huffman*>, comp_huffman> minimos```.
 - Custo médio: <i>O(log * n)</i>, onde <i>n</i> é o número de elementos inseridos na estrutura, ou seja, <i>K</i>.
+
+```cpp
+  struct comp_huffman
+{
+    constexpr bool operator()(folha_huffman* const& a, folha_huffman* const& b) const noexcept
+    {
+    return a->dado.contador >= b->dado.contador;
+    }
+};
+```
+- <i>Operator</i> utlizado na fila de prioridades que compara as frequências das palavras inseridas.
 
 # Casos Sem Tratamento e Possíveis Erros
 
@@ -525,6 +528,9 @@ Palavra: vista ---  frequência: 96
 ```
 
 # Conclusão
+
+De forma geral, o programa, orientado à objeto, se mostra eficiente para encontrar os <i>K</i> itens mais valiosos de uma coleção de dados e armazená-los nas 3 estruturas (árvores) escolhidas. Em se tratando de custo computacional, vale ressaltar que as árvores selecionadas (Binária - AVL - <i>Huffman</i>) possuem seu custo computacional geral dado por <i> O(log n)</i>. Contudo, a árvore binária padrão, em seu pior caso, apresenta custo <i>O(n)</i>, já que, por ela não apresentar nenhuma ferramenta que garante seu balanceamento, pode-se ocorrer a degeneração da árvore em uma lista vinculada, conforme a explicação dada na seção anterior. Em se tratando da AVL e <i>Huffman</i>, ambas apresentam uma melhoria em comparação com a Binária, tendo em vista que a AVL mantém o seu custo próximo de <i>O(log *n)</i>, em virtude das rotações, e a <i>Huffman</i> compacta seus dados, contribuindo para um menor gasto de memória. <br>
+Por fim, afirma-se que o objetivo do trabalho foi cumprido com exelência, porém, o código é passivo de melhorias e otimizações, tais como aquelas discutidas na seção "Casos Sem Tratamento e Possíveis Erros".
 
 # Especificações do Dispositivo Utilizado
 
