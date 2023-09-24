@@ -35,7 +35,7 @@ Para o processo de saída, vale-se das mesmas regras, contudo, acrescidas de tai
 - ```Methods.cpp``` : Arquivo que contém a estruturação das funções envolvidas na classe correspondente. <br>
 - ```main.cpp``` : Arquivo fonte, responsável por chamar as funções contidas nas classes , realizar o processo de seleção das <i>K</i> palavras mais valiosas e armazenar tais itens nas estruturas de dados complexas.<br>
 
-Em primeiro lugar, vale ressaltar as classes utilizadas para a elaboração das estruturas de dados (Árvores) em questão, as quais se localizam no arquivo ```Trees.hpp```.
+Em primeiro lugar, expõe-se as classes utilizadas para a elaboração das estruturas de dados (Árvores) em questão, as quais se localizam no arquivo ```Trees.hpp```.
 
 <strong><h4>Árvore Binaria :</h4></strong>
 ```cpp
@@ -160,63 +160,369 @@ class Arvore_Huffman
 
 };
 ```
-Ademais, vale ressaltar que todas as árvores em questão são instanciadas na classe ```Leitor```, a qual é declarada no arquivo ```Methods.hpp```, para que, dessa forma, os <i>K</i> elementos escolhidos previamente nessa classe fossem devidamente armazenados. Vale ressaltar que a classe ```Leitor``` possui apenas uma alteração quando comparada ao do trabalho <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a>. Essa alteração, a qual consiste na adição de um método, foi necessária para realizar a verificação se a palavra escolhida pelo usuário estava contida ou não naquele conjunto de dados e, caso estivesse, o processo de seleção e armazenamento seria iniciado.
-```cpp
-void Leitor :: Verifica (unordered_map <string, word> tabela, short int num_texto, ofstream& out)
-{
-    out << "\n----------INPUT " << to_string(num_texto+1) << "----------" << "\n"; 
-    for(unsigned long int i = 0; i < palavras_pesquisadas.size(); i++)
-    {
-        out << "\nPalavra a ser pesquisada no texto: " << palavras_pesquisadas[i];
-        if(tabela.count(palavras_pesquisadas[i])==1)
-        {
-            out << "\nA palavra " << palavras_pesquisadas[i] << " foi encontrada " << tabela[palavras_pesquisadas[i]].contador << " vezes!";
-            Cria_Heap(tabela, i, out);
-            if(i+1 == palavras_pesquisadas.size())
-                break;
-        }
-        else 
-            out << "\nA palavra " << palavras_pesquisadas[i] << " não foi encontrada no texto...\n";
-    }
-}
-```
-- Detalhamento da função ```Verifica```.
-
-Tendo evidenciado as classes e os códigos adicionados nesse trabalho, volta-se para a explicação de como funciona as 3 estruturas de dados que compõe a solução proposta: Árvore Binária, Árvore AVL e Árvore <i>Huffman</i>.
+Ademais, vale ressaltar que as estruturas em questão são instanciadas na classe ```Leitor```, a qual é declarada no arquivo ```Methods.hpp```, para que, dessa forma, os <i>K</i> elementos escolhidos previamente nessa classe fossem devidamente armazenados. Tendo evidenciado tal ponto, volta-se para a explicação do funcionamento das árvores que compõe a solução proposta:
 
 <strong><h4>Explicação - Árvore Binaria :</h4></strong>
 
 Uma árvore binária é uma estrutura de dados hierárquica baseada em divisão e conquista utilizada para armazenamento e pesquisa de dados, onde cada nó(dado) pode ter, no máximo, dois filhos: um à esquerda e um à direita, sendo os filhos da esquerda menores do que o nó pai e os filhos da direita maiores do que o nó pai. É importante ressaltar que o nó inicial é chamado de raiz, e os nós sem filhos são chamados de nós folha. Tal estrutura, assim como todas as árvores, pode ser percorrida em diferentes ordens: in-ordem, pre-ordem e pos-ordem. Vale ressaltar que todos os caminhamentos estão presentes no arquivo "output.data".
+- Função principal: ```void Inserir_arvore(folha** Raiz, word keyword)```.
 - Custo: <i>O(log * n)</i>, onde <i>n</i> é o número de nós (itens) inseridos na estrutura em árvore, ou seja, <i>K</i>.
 
 <strong><h4>Explicação - Árvore AVL :</h4></strong>
 
-Uma Árvore AVL é uma estrutura de dados de árvore binária balanceada, projetada para manter o equilíbrio da árvore, garantindo que a diferença de altura entre as subárvores da esquerda e da direita de qualquer nó (chamada de fator de balanceamento) seja no máximo 1 ou -1. Tal fato contribuí para o desempenho de operações de busca, inserção e remoção em tempo logarítmico. É importante salientar que quando um nó é inserido, a árvore é reequilibrada automaticamente para manter o fator de balanceamento. Sua característica princiapl é responsável por reduzir a probabilidade de degeneração da árvore em uma lista vinculada, mantendo-a balanceada.
+Uma Árvore AVL é uma estrutura de dados de árvore binária balanceada, projetada para manter o equilíbrio da árvore, garantindo que a diferença de altura entre as subárvores da esquerda e da direita de qualquer nó (chamada de fator de balanceamento) seja no máximo 1 ou -1. Tal fato contribuí para o desempenho de operações de busca, inserção e remoção em tempo logarítmico. É importante salientar que quando um nó é inserido, a árvore é reequilibrada automaticamente para manter o fator de balanceamento. Sua característica principal (uso de rotações) é responsável por reduzir a probabilidade de degeneração da árvore em uma lista vinculada, mantendo-a balanceada.
+- Função principal: ```void Inserir_arvore_avl(folha_avl*& Raiz_avl, word keyword, bool& brota)```.
 
 <strong>Rotações</strong>
 
 Caso o fator de balanceamento de um nó exceder o limite (de 1 até -1), a árvore não será mais uma AVL, e rotações são usadas para restaurar o equilíbrio. Existem quatro tipos principais de rotações em uma árvore AVL:
 
-<strong> Rotação simples à direita: </strong>
+<strong> - Rotação simples à direita: </strong>
 <p>Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do nó desequilibrado. A rotação à direita reequilibra a árvore movendo o nó desequilibrado para a direita.
+    
+- Função: ```void Rotacao_simples_direita(folha_avl*& arvore)```.
     
 ```cpp
                                                A                        
-                                                \                       A  
+                                                \                       B  
                                                  B         ->         /   \   
-                                                  \                  B     C
+                                                  \                  A     C
                                                    C                  
 ```
 
+<strong> - Rotação simples à esquerda: </strong>
+Essa rotação é usada quando o fator de balanceamento de um nó se torna menor que -1 devido a uma inserção à esquerda do nó desequilibrado. A rotação à esquerda reequilibra a árvore movendo o nó desequilibrado para a esquerda.
+
+- Função: ```void Rotacao_simples_esquerda(folha_avl*& arvore)```.
+
+```cpp
+                                                C
+                                               /                        B
+                                              B           ->          /   \
+                                             /                       A     C
+                                            A
+```
+
+<strong> - Rotação dupla esquerda_direira: </strong>
+Esta rotação é usada quando o fator de balanceamento de um nó se torna menor que -1 devido a uma inserção à esquerda do filho direito do nó desequilibrado. A rotação esquerda-direita reequilibra a árvore realizando uma rotação simples à esquerda seguida de uma rotação simples à direita.
+
+- Função: ```void Rotacao_dupla_direita_esquerda(folha_avl*& arvore)```.
+
+```cpp
+                                             A   
+                                              \                          B
+                                               C           ->          /   \
+                                              /                       A     C
+                                             B
+```
+
+<strong> - Rotação dupla direita_esquerda: </strong>
+Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do filho esquerdo do nó desequilibrado. A rotação direita-esquerda reequilibra a árvore realizando uma rotação simples à direita seguida de uma rotação simples à esquerda.
+
+- Função: ```void Rotacao_dupla_esquerda_direita(folha_avl*& arvore)```.
+
+```cpp
+                                             C   
+                                            /                          B
+                                           A             ->          /   \
+                                            \                       A     C
+                                             B
+```
+
+- Custo (garantido): <i>O(log * n)</i>, onde <i>n</i> é o número de nós (itens) inseridos na estrutura em árvore, ou seja, <i>K</i>.
+
+<strong><h4>Explicação - Árvore <i>Huffman</i> :</h4></strong>
+
+A Árvore de <i>Huffman</i>, sendo desenvolvida por David A. Huffman em 1952 é uma técnica de compressão de dados amplamente utilizada para reduzir o tamanho de dados. Sua construção inicia-se a contagem da frequência de cada elemento (palavras) no conjunto de dados a ser comprimido. Após isso, os elementos são organizados em nós de uma árvore binária, onde os itens com menor frequência estão nas folhas e os nós internos representam somas de frequências. Desse modo, atribui-se códigos binários únicos para cada símbolo, percorrendo a árvore de <i>Huffman</i> da raiz até as folhas. Os códigos são atribuídos de tal forma que nenhum código seja um prefixo de outro. Por fim, substitui-se os símbolos originais pelos códigos Huffman correspondentes. O resultado é uma representação compacta dos dados originais.
 
 - Custo: <i>O(log * n)</i>, onde <i>n</i> é o número de nós (itens) inseridos na estrutura em árvore, ou seja, <i>K</i>.
 
+<div align=center>
+<img src="https://github.com/Guiliard/Sistema-AutoCompletar/assets/127882640/ec22cf5a-b293-41ce-b903-44272f66db97.png" width="420px"/>
+</div>
+<p  align="center">
+Exemplo da uma árvore binária genérica.
+</p>
+
+Dado as estruturas principais do programa, evidencia-se que as funções contidas na classe ```Methods.cpp``` são as mesmas declaradas no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a>. Contudo, uma foi adicionada: 
+
+- ```Verifica```: verificação se a palavra pesquisada pelo usuário existe ou não no texto. Caso exista, o código continua sua execução.
+
+Com a interconexão de todas essas funções, estruturas e classes, a seleção, armazenamento e classificação dos <i>K</i> itens mais valiosos do conjunto de dados se torna possível.
 
 # Casos Especiais
 
+<strong><h4>Minimos (priority_queue) :</h4></strong>
+Conforme a explicação dada na árvore <i>Huffman</i>, é necessário encontrar os itens com menor frequência, para que esses possam ser armazenados nas folhas que possuem nós internos dados pelas somas de tais frequências. Logo, para se obter esses elementos, necessitou-se escolher um método de ordenação eficiente. Por isso, foi-se utilizada uma fila de prioridades (priority_queue), a qual recebe os dados (itens) de forma desordenada e retorna as palavras em ordem crescente, orientando-se pela frequência de cada uma. Com isso, o processo de seleção das menores recorrências para a construção da árvore <i>Huffman</i> foi construído.
+- Sintaxe: ```priority_queue <folha_huffman*, vector<folha_huffman*>, comp_huffman> minimos```.
+- Custo médio: <i>O(log * n)</i>, onde <i>n</i> é o número de elementos inseridos na estrutura, ou seja, <i>K</i>.
+
 # Casos Sem Tratamento e Possíveis Erros
 
+Os limites do programa elaborado nessa prática são os mesmos evidenciados no trabalho  <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a>. Além disso, a árvore <i>Huffman</i> implementada nesse trabalho, apesar de seguir, veemente, a teoria e o conceito de tal estrutura, não evidencia os códigos de compactação dos elementos inseridos, apesar de que, segundo a lógica de David A. Huffman, o primeiro elemento terá código 0000, o segundo 0001, o terceiro 0010, e assim por diante seguindo uma sequência crescente em binário. Logo, tal característica, apesar de não estar evidenciada no arquivo de saída "output.data", não significa um erro exorbitande, já que tal processo pode ser dado de maneira trivial.   
+
+- Primeira palavra da árvore de <i>Huffman</i>: É -- Frequência: 96 -- Código: 0000.
+
 # Implementação
+
+Considere os seguintes exemplos de entrada para o programa: 
+
+|   Entrada     |    Conteúdo                      | Quantidade de linhas |
+|---------------|----------------------------------|----------------------|
+| input1.data   |  Texto_sobre_Filosofia.txt       | 1039                 |
+| input2.data   |  Texto_sobre_Filosofia_2.txt     | 1025                 |
+| input3.data   |  Texto_sobre_Globalização.txt    | 1029                 |
+| input4.data   |  Texto_sobre_Política.txt        | 1017                 |
+| input5.data   |  Texto_sobre_Tecnologia.txt      | 1027                 |
+| input6.data   |  Texto_sobre_Tecnologia_2.txt    | 1020                 |
+| stopwords.txt |  Artigos_e_Adjuntos.txt          | 207                  |
+| palavras.txt  |  Palavras_Pesquisadas.txt        | 5                    |
+
+<strong><h4>Palavras.txt :</h4></strong>
+```
+teoria
+mundo
+software
+tecnologia
+empreendedorismo
+```
+
+<strong><h4>input1.data (parcial) :</h4></strong>
+```
+Caros amigos, a infinita diversidade da realidade única nos obriga à análise do demônio de Laplace. Por outro lado, a complexidade dos estudos efetuados cumpre um papel essencial na formulação da fundamentação metafísica das representações. Assim mesmo, a forma geral da proposição significativa deverá confirmar as consequências decorrentes do sistema de conhecimento geral.
+
+Neste sentido, o novo modelo estruturalista aqui preconizado auxilia a preparação e a composição das posturas dos filósofos divergentes com relação às atribuições conceituais. Baseando-se nos ensinamentos de Dewey, a canalizaçao do Ser do Ente garante a contribuição de um grupo importante na determinação das novas teorias propostas. A prática cotidiana prova que a consolidação das estruturas psico-lógicas não sistematiza essa relação, de tal modo que a pulsão funciona funciona como significado da determinação do Ser enquanto Ser.
+
+Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o conceito de diáthesis e os princípios fundamentais de rhytmos e arrythmiston facilita a criação do sistema de formação de quadros que corresponde às necessidades lógico-estruturais. Como Deleuze eloquentemente mostrou, o início da atividade geral de formação de conceitos obstaculiza a apreciação da importância dos paradigmas filosóficos. Acabei de provar que o desafiador cenário globalizado não oferece uma interessante oportunidade para verificação dos relacionamentos verticais entre as hierarquias conceituais. Se estivesse vivo, Foucault diria que o Übermensch de Nietzsche, ou seja, o Super-Homem, acarreta um processo de reformulação e modernização da substancialidade e causalidade entendidos como certezas fundamentais. Pretendo demonstrar que a expansão dos mercados mundiais pode nos levar a considerar a reestruturação das ciências discursivas.
+
+Neste sentido, existem duas tendências que coexistem de modo heterogêneo, revelando a hegemonia do ambiente político representa uma abertura para a melhoria da fórmula da ressonância racionalista. Segundo Heidegger, o fenômeno da Internet se apresenta como experiência metapsicológica, devido à impermeabilização de um mundo povoado por objetos intencionais e transcendentes, interiores ao imanente infinito. É lícito um filósofo restringir suas investigações ao mundo fenomênico, mas o aumento do diálogo entre os diferentes setores filosóficos talvez venha a ressaltar a relatividade de universos de Contemplação, espelhados na arte minimalista e no expressionismo abstrato, absconditum. Este pensamento está vinculado à desconstrução da metafísica, pois a crescente influência da mídia consistiria na origem epistemológica de todos os recursos funcionais envolvidos.
+
+Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se o surgimento de impulsos psicossociais individualizantes reduziria a importância da corrente inovadora da qual fazemos parte. A ruptura definitiva com Kant é consumada quando o não-ser que não é nada é condição necessária das considerações acima? Nada se pode dizer, pois sobre o que não se pode falar, deve-se calar. Acima de tudo, o uno-múltiplo, repouso-movimento, finito indeterminado, agrega valor ao estabelecimento do fluxo de informações. Sob a perspectiva de Schopenhauer, a instauração do modo aporético do Uno é uma das consequências dos elementos envolvidos de maneira conclusiva? Nada se pode dizer a respeito.
+
+Segundo Nietzsche, a indeterminação contínua de distintas formas de fenômeno promove a alavancagem das diversas correntes de pensamento. As experiências acumuladas demonstram que a geração de sistemas de coordenadas heterogêneas irredutíveis não pode mais se dissociar das regras de conduta normativas. Seguindo o fluxo da corrente analítica anglo-saxônica, o surgimento do comércio virtual possibilita uma melhor visão global da conjuntura histórico-social. O que temos que ter sempre em mente é que a universalidade eidética do puro-devir obstaculiza a admissão de uma ontologia do retorno esperado a longo prazo.
+
+O movimento inverso da proaíresis, que avança -pro-, como a pro-lépsis, demonstra que o acompanhamento das preferências de consumo desafia a capacidade de equalização das coisas e o melhor dos mundos possíveis. Acima de tudo, é fundamental ressaltar que o comprometimento entre as ontologias faz parte de um processo de agenciamento das condições epistemológicas e cognitivas exigidas. O incentivo ao avanço tecnológico, assim como a determinação clara de objetivos não causa impacto indireto na reavaliação dos métodos utilizados na busca da verdade. Não obstante, uma adoção de metodologias descentralizadoras tem como componentes elementos indiscerníveis dos meios de comunicação, The Media, o fator condicionante da interdependência virtual.
+
+Pensando mais a longo prazo, a valorização de fatores subjetivos estende o alcance e a importância da sensibilia dos não-sentidos. Em um dos seus momentos mais iluminados Heidegger afirmou que a percepção das dificuldades deve passar por modificações independentemente dos sinais peirceanos percebidos pelo sujeito imerso nos fenômenos sociais. O filósofo francês Ricoeur, defende que a abordagem de Zeit und Sein afeta positivamente a correta previsão da doxa, da opinião e da razão pura do espírito transcendente. Gostaria de enfatizar que a consequência da interpretação substitucional dos quantificadores recorre à experiência efetiva do levantamento das variáveis envolvidas. Todavia, a coerência das idéias contratualistas não parece corresponder a uma análise distributiva de conhecimentos empíricos provindos das afecções.
+
+Ora, a univocidade da substância imanente constitui uma propriedade inalienável dos prospectos condicionalizantes e necessários a todo juízo empírico. O empenho em analisar a forma de uma transcendência imanente ou primordialefetua a conexão habitual das três instâncias de oposição centrais. Percebemos, cada vez mais, que o personagem conceitual imanente ao caos parece compendiar nossas conclusões experimentais a respeito das direções preferenciais no sentido do progresso filosófico. No mundo atual, o tríptico movimento de pensamento não sistematiza a estrutura da afirmação que o Ser é e o Não ser não é. É importante questionar o quanto o su-jeito de que fala Kant nos arrasta ao labirinto de sofismas obscuros da esfera do virtual, a saber, do pensamento em potência.
+
+No entanto, não podemos esquecer que a revolução copernicana, entendida como ruptura, nos leva ao caminho impenetrável das múltiplas direções do ponto de transcendência do sentido enunciativo. Tendo em vista a extrema limitação dos meios empregados (como Husserl advertiu), o uso metafórico da linguagem, a respeito do significante e significado, estimula a padronização das retroações, proliferações, conexões e fractalizações do território desterritorializado. Podemos já vislumbrar o modo pelo qual a relevância da terceira antinomia da Antitética da Razão demonstra a irrefutabilidade das vantagens dos modos de análise convencionais.
+```
+<strong><h4>output.data (parcial) :</h4></strong>
+```
+
+----------INPUT 1----------
+
+Palavra a ser pesquisada no texto: teoria
+A palavra teoria foi encontrada 176 vezes!
+
+--> Árvore Binária: 
+
+In-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: mundo ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+
+Pre-Ordem:
+Palavra: virtual ---  frequência: 93
+Palavra: realidade ---  frequência: 91
+Palavra: assim ---  frequência: 94
+Palavra: sentido ---  frequência: 110
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: pensamento ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: mundo ---  frequência: 134
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: modo ---  frequência: 129
+Palavra: sujeito ---  frequência: 145
+
+Pos-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: É ---  frequência: 96
+Palavra: quanto ---  frequência: 95
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: priori ---  frequência: 125
+Palavra: sujeito ---  frequência: 145
+Palavra: mundo ---  frequência: 134
+Palavra: pensamento ---  frequência: 115
+Palavra: sentido ---  frequência: 110
+Palavra: assim ---  frequência: 94
+Palavra: virtual ---  frequência: 93
+
+
+--> Árvore AVL: 
+
+In-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: segundo ---  frequência: 114
+Palavra: sobre ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: condição ---  frequência: 134
+Palavra: mundo ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+
+Pre-Ordem:
+Palavra: sentido ---  frequência: 110
+Palavra: quanto ---  frequência: 95
+Palavra: assim ---  frequência: 94
+Palavra: virtual ---  frequência: 93
+Palavra: realidade ---  frequência: 91
+Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: pensamento ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: mundo ---  frequência: 134
+Palavra: modo ---  frequência: 129
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+
+Pos-Ordem:
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: assim ---  frequência: 94
+Palavra: vista ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: É ---  frequência: 96
+Palavra: quanto ---  frequência: 95
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: sobre ---  frequência: 114
+Palavra: priori ---  frequência: 125
+Palavra: condição ---  frequência: 134
+Palavra: modo ---  frequência: 129
+Palavra: sujeito ---  frequência: 145
+Palavra: mundo ---  frequência: 134
+Palavra: pensamento ---  frequência: 115
+Palavra: sentido ---  frequência: 110
+
+
+--> Ávore de Huffman: 
+
+In-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: mundo ---  frequência: 134
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Pre-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: mundo ---  frequência: 134
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+
+Pos-Ordem:
+Palavra: É ---  frequência: 96
+Palavra: imanente ---  frequência: 104
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
+Palavra: sistema ---  frequência: 115
+Palavra: pensamento ---  frequência: 115
+Palavra: priori ---  frequência: 125
+Palavra: modo ---  frequência: 129
+Palavra: mundo ---  frequência: 134
+Palavra: condição ---  frequência: 134
+Palavra: sujeito ---  frequência: 145
+Palavra: realidade ---  frequência: 91
+Palavra: virtual ---  frequência: 93
+Palavra: assim ---  frequência: 94
+Palavra: maneira ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
+Palavra: vista ---  frequência: 96
+```
 
 # Conclusão
 
@@ -236,7 +542,7 @@ Um arquivo Makefile que realiza todo o procedimento de compilação e execução
 
 | Comando                |  Função                                                                                           |                     
 | -----------------------| ------------------------------------------------------------------------------------------------- |
-|  `make clean`          | Apaga a última compilação realizada contida na pasta build                                        |
+|  `make clean`          | Apaga a última compilação realizada contida na pasta build e o último "output.data"               |
 |  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
 |  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
 
