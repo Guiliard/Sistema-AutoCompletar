@@ -260,6 +260,8 @@ Conforme a explicação dada na árvore <i>Huffman</i>, é necessário encontrar
 ```
 - <i>Operator</i> utlizado na fila de prioridades que compara as frequências das palavras inseridas.
 
+Além disso, caso a palavra pesquisada esteja na lista das <i>K</i> palavras mais importantes do texto, ela será substituída pela (<i>K</i>+1)º palavra mais frequênte do texto e, assim, a lógica do programa se segue normalmente.
+
 # Casos Sem Tratamento e Possíveis Erros
 
 Os limites do programa elaborado nessa prática são os mesmos evidenciados no trabalho  <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a>. Além disso, a árvore <i>Huffman</i> implementada nesse trabalho, apesar de seguir, veemente, a teoria e o conceito de tal estrutura, não evidencia os códigos de compactação dos elementos inseridos, apesar de que, segundo a lógica de David A. Huffman, o primeiro elemento terá código 0000, o segundo 0001, o terceiro 0010, e assim por diante seguindo uma sequência crescente em binário. Logo, tal característica, apesar de não estar evidenciada no arquivo de saída "output.data", não significa um erro exorbitande, já que tal processo pode ser dado de maneira trivial.   
