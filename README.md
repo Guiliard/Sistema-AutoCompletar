@@ -17,20 +17,20 @@ Foi proposto um problema de sugestão de dados em base aos <i>K</i> itens mais v
 
 # Descrição do Problema
 
-Em múltiplos arquivos ".data", encontram-se conjuntos de dados (textos), os quais devem ser lidos e tokenizados (separados em palavras). A partir disso, deve-se fornecer para o programa, como entrada, em um arquivo nomeado como "palavras.txt", as palavras que serão pesquisadas pelo usuário. Com tais informações, se, em um texto, existir aquela palavra pesquisada, todo o processo descrito no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a> deve ser construído. Após isso, as  as <i>K</i> palavras mais valiosas(frequêntes) devem ser armazedas em 3 diferentes estruturas de dados complexas: Árvore Binária, Árvore AVL e Árvore de <i>Huffman</i>, com cada uma possuindo suas peculariedades. Por fim, espera-se, como saída, um arquivo "output.data", contendo o resultado de todo esse procedimento.
+Em múltiplos arquivos ".data", encontram-se conjuntos de dados (textos), os quais devem ser lidos e tokenizados (separados em palavras). A partir disso, deve-se fornecer para o programa, como entrada, em um arquivo nomeado como "palavras.txt", as palavras que serão pesquisadas pelo usuário. Com tais informações, se, em um texto, existir aquela palavra pesquisada, todo o processo descrito no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a> deve ser construído. Após isso, as  as <i>K</i> palavras mais valiosas (frequêntes) devem ser armazedas em 3 diferentes estruturas de dados complexas: Árvore Binária, Árvore AVL e Árvore de <i>Huffman</i>, com cada uma possuindo suas peculariedades. Por fim, espera-se, como saída, um arquivo "output.data", contendo o resultado de todo esse procedimento.
 
 Para o processo de leitura, considera-se as mesmas regras descritas no projeto <a href="https://github.com/Guiliard/Top-K-Elementos" target="_blank">Top-K-Elementos</a>. 
 
 Para o processo de saída, vale-se das mesmas regras, contudo, acrescidas de tais informações:
-- Construção lógica das 3 Árvores (as quais serão explicadas posteriormente).
+- Construção lógica das três Árvores (as quais serão explicadas posteriormente).
 - Especificação da palavra pesquisada no arquivo "output.data".
 
 # Solução Proposta
 
-<p>Para esse tipo de problema, foi proposto um código que contém 5 arquivos principais: Trees.hpp, Trees.cpp, Methods.hpp, Methods.cpp e main.cpp.<br>
+<p>Para esse tipo de problema, foi proposto um código que contém cinco arquivos principais: Trees.hpp, Trees.cpp, Methods.hpp, Methods.cpp e main.cpp.<br>
 
 - ```Trees.hpp``` : Classes que possuem a declaração de variáveis e funções envolvidas no processo de construção das Árvores (Binária, AVL e <i>Huffman</i>). <br>
-- ```Trees.cpp``` : Arquivo que contém a estruturação das funções envolvidas nas classes correspondente. <br>
+- ```Trees.cpp``` : Arquivo que contém a estruturação das funções envolvidas nas classes correspondentes. <br>
 - ```Methods.hpp``` : Classe que possui a declaração dos atributos (características) e métodos (funções) envolvidas no processo de armazenamento e contagem de palavras. É importante ressaltar que é nesse arquivo que se encontra a declaração do valor assumido por <i>K</i>. <br>
 - ```Methods.cpp``` : Arquivo que contém a estruturação das funções envolvidas na classe correspondente. <br>
 - ```main.cpp``` : Arquivo fonte, responsável por chamar as funções contidas nas classes , realizar o processo de seleção das <i>K</i> palavras mais valiosas e armazenar tais itens nas estruturas de dados complexas.<br>
@@ -156,7 +156,7 @@ Ademais, vale ressaltar que as estruturas em questão são instanciadas na class
 
 <strong><h4>Explicação - Árvore Binaria :</h4></strong>
 
-Uma árvore binária é uma estrutura de dados hierárquica baseada em divisão e conquista utilizada para armazenamento e pesquisa de dados, onde cada nó(dado) pode ter, no máximo, dois filhos: um à esquerda e um à direita, sendo os filhos da esquerda menores do que o nó pai e os filhos da direita maiores do que o nó pai. É importante ressaltar que o nó inicial é chamado de raiz, e os nós sem filhos são chamados de nós folha. Tal estrutura, assim como todas as árvores, pode ser percorrida em diferentes ordens: in-ordem, pre-ordem e pos-ordem. Vale ressaltar que todos os caminhamentos estão presentes no arquivo "output.data".
+Uma árvore binária é uma estrutura de dados hierárquica baseada em divisão e conquista utilizada para armazenamento e pesquisa de dados, onde cada nó(dado) pode ter, no máximo, dois filhos: um à esquerda e um à direita, sendo os filhos da esquerda menores do que o nó pai e os filhos da direita maiores do que o nó pai. É importante ressaltar que o nó inicial é chamado de raiz, e os nós sem filhos são chamados de nós folhas. Tal estrutura, assim como todas as árvores, pode ser percorrida em diferentes ordens: in-ordem, pré-ordem e pós-ordem. Vale ressaltar que todos os caminhamentos estão presentes no arquivo "output.data".
 - Função principal: ```void Inserir_arvore(folha** Raiz, word keyword)```.
 - Custo: <i>O(log * n)</i>, onde <i>n</i> é o número de nós (itens) inseridos na estrutura em árvore, ou seja, <i>K</i>.
 
@@ -167,7 +167,7 @@ Uma Árvore AVL é uma estrutura de dados de árvore binária balanceada, projet
 
 <strong>Rotações</strong>
 
-Caso o fator de balanceamento de um nó exceder o limite (de 1 até -1), a árvore não será mais uma AVL, e rotações são usadas para restaurar o equilíbrio. Existem quatro tipos principais de rotações em uma árvore AVL:
+Caso o fator de balanceamento de um nó exceder o limite (de 1 até -1), a árvore não será mais uma AVL, e rotações serão usadas para restaurar o equilíbrio. Existem quatro tipos principais de rotações em uma árvore AVL:
 
 <strong> - Rotação simples à direita: </strong>
 <p>Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do nó desequilibrado. A rotação à direita reequilibra a árvore movendo o nó desequilibrado para a direita.
@@ -530,7 +530,7 @@ Palavra: vista ---  frequência: 96
 # Conclusão
 
 De forma geral, o programa, orientado à objeto, se mostra eficiente para encontrar os <i>K</i> itens mais valiosos de uma coleção de dados e armazená-los nas 3 estruturas (árvores) escolhidas. Em se tratando de custo computacional, vale ressaltar que as árvores selecionadas (Binária - AVL - <i>Huffman</i>) possuem seu custo computacional geral dado por <i> O(log n)</i>. Contudo, a árvore binária padrão, em seu pior caso, apresenta custo <i>O(n)</i>, já que, por ela não apresentar nenhuma ferramenta que garante seu balanceamento, pode-se ocorrer a degeneração da árvore em uma lista vinculada, conforme a explicação dada na seção anterior. Em se tratando da AVL e <i>Huffman</i>, ambas apresentam uma melhoria em comparação com a Binária, tendo em vista que a AVL mantém o seu custo próximo de <i>O(log *n)</i>, em virtude das rotações, e a <i>Huffman</i> compacta seus dados, contribuindo para um menor gasto de memória. <br>
-Por fim, afirma-se que o objetivo do trabalho foi cumprido com exelência, porém, o código é passivo de melhorias e otimizações, tais como aquelas discutidas na seção "Casos Sem Tratamento e Possíveis Erros".
+Por fim, afirma-se que o objetivo do trabalho foi cumprido com excelência, porém, o código é passivo de melhorias e otimizações, tais como aquelas discutidas na seção "Casos Sem Tratamento e Possíveis Erros".
 
 # Especificações do Dispositivo Utilizado
 
