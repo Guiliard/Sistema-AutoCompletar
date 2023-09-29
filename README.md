@@ -316,7 +316,6 @@ No entanto, não podemos esquecer que a revolução copernicana, entendida como 
 ```
 <strong><h4>output.data (parcial) :</h4></strong>
 ```
-
 ----------INPUT 1----------
 
 Palavra a ser pesquisada no texto: teoria
@@ -325,15 +324,15 @@ A palavra teoria foi encontrada 176 vezes!
 --> Árvore Binária: 
 
 In-Ordem:
-Palavra: realidade ---  frequência: 91
+Palavra: princípio ---  frequência: 91
 Palavra: virtual ---  frequência: 93
 Palavra: assim ---  frequência: 94
 Palavra: maneira ---  frequência: 95
-Palavra: wittgenstein ---  frequência: 95
-Palavra: pode ---  frequência: 95
 Palavra: quanto ---  frequência: 95
-Palavra: vista ---  frequência: 96
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
 Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
 Palavra: imanente ---  frequência: 104
 Palavra: sentido ---  frequência: 110
 Palavra: segundo ---  frequência: 114
@@ -348,17 +347,17 @@ Palavra: sujeito ---  frequência: 145
 
 Pre-Ordem:
 Palavra: virtual ---  frequência: 93
-Palavra: realidade ---  frequência: 91
-Palavra: assim ---  frequência: 94
-Palavra: sentido ---  frequência: 110
-Palavra: quanto ---  frequência: 95
-Palavra: pode ---  frequência: 95
-Palavra: wittgenstein ---  frequência: 95
-Palavra: maneira ---  frequência: 95
-Palavra: É ---  frequência: 96
-Palavra: vista ---  frequência: 96
+Palavra: princípio ---  frequência: 91
 Palavra: imanente ---  frequência: 104
+Palavra: assim ---  frequência: 94
+Palavra: wittgenstein ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: vista ---  frequência: 96
+Palavra: É ---  frequência: 96
 Palavra: pensamento ---  frequência: 115
+Palavra: sentido ---  frequência: 110
 Palavra: sobre ---  frequência: 114
 Palavra: segundo ---  frequência: 114
 Palavra: sistema ---  frequência: 115
@@ -369,40 +368,40 @@ Palavra: modo ---  frequência: 129
 Palavra: sujeito ---  frequência: 145
 
 Pos-Ordem:
-Palavra: realidade ---  frequência: 91
+Palavra: princípio ---  frequência: 91
 Palavra: maneira ---  frequência: 95
-Palavra: wittgenstein ---  frequência: 95
-Palavra: pode ---  frequência: 95
-Palavra: vista ---  frequência: 96
-Palavra: imanente ---  frequência: 104
-Palavra: É ---  frequência: 96
 Palavra: quanto ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: wittgenstein ---  frequência: 95
+Palavra: assim ---  frequência: 94
 Palavra: segundo ---  frequência: 114
 Palavra: sistema ---  frequência: 115
 Palavra: sobre ---  frequência: 114
+Palavra: sentido ---  frequência: 110
 Palavra: modo ---  frequência: 129
 Palavra: condição ---  frequência: 134
 Palavra: priori ---  frequência: 125
 Palavra: sujeito ---  frequência: 145
 Palavra: mundo ---  frequência: 134
 Palavra: pensamento ---  frequência: 115
-Palavra: sentido ---  frequência: 110
-Palavra: assim ---  frequência: 94
+Palavra: imanente ---  frequência: 104
 Palavra: virtual ---  frequência: 93
 
 
 --> Árvore AVL: 
 
 In-Ordem:
-Palavra: realidade ---  frequência: 91
+Palavra: princípio ---  frequência: 91
 Palavra: virtual ---  frequência: 93
 Palavra: assim ---  frequência: 94
 Palavra: maneira ---  frequência: 95
-Palavra: wittgenstein ---  frequência: 95
-Palavra: pode ---  frequência: 95
 Palavra: quanto ---  frequência: 95
-Palavra: vista ---  frequência: 96
+Palavra: pode ---  frequência: 95
+Palavra: wittgenstein ---  frequência: 95
 Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
 Palavra: imanente ---  frequência: 104
 Palavra: sentido ---  frequência: 110
 Palavra: segundo ---  frequência: 114
@@ -416,20 +415,20 @@ Palavra: mundo ---  frequência: 134
 Palavra: sujeito ---  frequência: 145
 
 Pre-Ordem:
-Palavra: sentido ---  frequência: 110
-Palavra: quanto ---  frequência: 95
+Palavra: imanente ---  frequência: 104
+Palavra: wittgenstein ---  frequência: 95
 Palavra: assim ---  frequência: 94
 Palavra: virtual ---  frequência: 93
-Palavra: realidade ---  frequência: 91
-Palavra: wittgenstein ---  frequência: 95
+Palavra: princípio ---  frequência: 91
+Palavra: quanto ---  frequência: 95
 Palavra: maneira ---  frequência: 95
 Palavra: pode ---  frequência: 95
-Palavra: É ---  frequência: 96
 Palavra: vista ---  frequência: 96
-Palavra: imanente ---  frequência: 104
+Palavra: É ---  frequência: 96
 Palavra: pensamento ---  frequência: 115
-Palavra: sobre ---  frequência: 114
 Palavra: segundo ---  frequência: 114
+Palavra: sentido ---  frequência: 110
+Palavra: sobre ---  frequência: 114
 Palavra: sistema ---  frequência: 115
 Palavra: mundo ---  frequência: 134
 Palavra: modo ---  frequência: 129
@@ -438,26 +437,26 @@ Palavra: condição ---  frequência: 134
 Palavra: sujeito ---  frequência: 145
 
 Pos-Ordem:
-Palavra: realidade ---  frequência: 91
+Palavra: princípio ---  frequência: 91
 Palavra: virtual ---  frequência: 93
 Palavra: maneira ---  frequência: 95
 Palavra: pode ---  frequência: 95
-Palavra: wittgenstein ---  frequência: 95
-Palavra: assim ---  frequência: 94
-Palavra: vista ---  frequência: 96
-Palavra: imanente ---  frequência: 104
-Palavra: É ---  frequência: 96
 Palavra: quanto ---  frequência: 95
-Palavra: segundo ---  frequência: 114
+Palavra: assim ---  frequência: 94
+Palavra: É ---  frequência: 96
+Palavra: vista ---  frequência: 96
+Palavra: wittgenstein ---  frequência: 95
+Palavra: sentido ---  frequência: 110
 Palavra: sistema ---  frequência: 115
 Palavra: sobre ---  frequência: 114
+Palavra: segundo ---  frequência: 114
 Palavra: priori ---  frequência: 125
 Palavra: condição ---  frequência: 134
 Palavra: modo ---  frequência: 129
 Palavra: sujeito ---  frequência: 145
 Palavra: mundo ---  frequência: 134
 Palavra: pensamento ---  frequência: 115
-Palavra: sentido ---  frequência: 110
+Palavra: imanente ---  frequência: 104
 
 
 --> Ávore de Huffman: 
@@ -475,13 +474,13 @@ Palavra: modo ---  frequência: 129
 Palavra: mundo ---  frequência: 134
 Palavra: condição ---  frequência: 134
 Palavra: sujeito ---  frequência: 145
-Palavra: realidade ---  frequência: 91
+Palavra: princípio ---  frequência: 91
 Palavra: virtual ---  frequência: 93
 Palavra: assim ---  frequência: 94
-Palavra: maneira ---  frequência: 95
-Palavra: quanto ---  frequência: 95
-Palavra: pode ---  frequência: 95
 Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
 Palavra: vista ---  frequência: 96
 
 Pre-Ordem:
@@ -497,13 +496,13 @@ Palavra: modo ---  frequência: 129
 Palavra: mundo ---  frequência: 134
 Palavra: condição ---  frequência: 134
 Palavra: sujeito ---  frequência: 145
-Palavra: realidade ---  frequência: 91
+Palavra: princípio ---  frequência: 91
 Palavra: virtual ---  frequência: 93
 Palavra: assim ---  frequência: 94
-Palavra: maneira ---  frequência: 95
-Palavra: quanto ---  frequência: 95
-Palavra: pode ---  frequência: 95
 Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
 Palavra: vista ---  frequência: 96
 
 Pos-Ordem:
@@ -519,13 +518,13 @@ Palavra: modo ---  frequência: 129
 Palavra: mundo ---  frequência: 134
 Palavra: condição ---  frequência: 134
 Palavra: sujeito ---  frequência: 145
-Palavra: realidade ---  frequência: 91
+Palavra: princípio ---  frequência: 91
 Palavra: virtual ---  frequência: 93
 Palavra: assim ---  frequência: 94
-Palavra: maneira ---  frequência: 95
-Palavra: quanto ---  frequência: 95
-Palavra: pode ---  frequência: 95
 Palavra: wittgenstein ---  frequência: 95
+Palavra: maneira ---  frequência: 95
+Palavra: pode ---  frequência: 95
+Palavra: quanto ---  frequência: 95
 Palavra: vista ---  frequência: 96
 ```
 
