@@ -169,10 +169,10 @@ Uma Árvore AVL é uma estrutura de dados de árvore binária balanceada, projet
 
 Caso o fator de balanceamento de um nó exceder o limite (de 1 até -1), a árvore não será mais uma AVL, e rotações serão usadas para restaurar o equilíbrio. Existem quatro tipos principais de rotações em uma árvore AVL:
 
-<strong> - Rotação simples à direita: </strong>
-<p>Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do nó desequilibrado. A rotação à direita reequilibra a árvore movendo o nó desequilibrado para a direita.
-    
-- Função: ```void Rotacao_simples_direita(folha_avl*& arvore)```.
+<strong> - Rotação simples à esquerda: </strong>
+Essa rotação é usada quando o fator de balanceamento de um nó se torna menor que -1 devido a uma inserção à esquerda do nó desequilibrado. A rotação à esquerda reequilibra a árvore movendo o nó desequilibrado para a esquerda.
+
+- Função: ```void Rotacao_simples_esquerda(folha_avl*& arvore)```.
     
 ```cpp
                                                A                        
@@ -182,10 +182,10 @@ Caso o fator de balanceamento de um nó exceder o limite (de 1 até -1), a árvo
                                                    C                  
 ```
 
-<strong> - Rotação simples à esquerda: </strong>
-Essa rotação é usada quando o fator de balanceamento de um nó se torna menor que -1 devido a uma inserção à esquerda do nó desequilibrado. A rotação à esquerda reequilibra a árvore movendo o nó desequilibrado para a esquerda.
-
-- Função: ```void Rotacao_simples_esquerda(folha_avl*& arvore)```.
+<strong> - Rotação simples à direita: </strong>
+<p>Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do nó desequilibrado. A rotação à direita reequilibra a árvore movendo o nó desequilibrado para a direita.
+    
+- Função: ```void Rotacao_simples_direita(folha_avl*& arvore)```.
 
 ```cpp
                                                 C
@@ -195,10 +195,10 @@ Essa rotação é usada quando o fator de balanceamento de um nó se torna menor
                                             A
 ```
 
-<strong> - Rotação dupla esquerda_direira: </strong>
-Esta rotação é usada quando o fator de balanceamento de um nó se torna menor que -1 devido a uma inserção à esquerda do filho direito do nó desequilibrado. A rotação esquerda-direita reequilibra a árvore realizando uma rotação simples à esquerda seguida de uma rotação simples à direita.
+<strong> - Rotação dupla direita_esquerda: </strong>
+Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do filho esquerdo do nó desequilibrado. A rotação direita-esquerda reequilibra a árvore realizando uma rotação simples à direita seguida de uma rotação simples à esquerda.
 
-- Função: ```void Rotacao_dupla_direita_esquerda(folha_avl*& arvore)```.
+- Função: ```void Rotacao_dupla_esquerda_direita(folha_avl*& arvore)```.
 
 ```cpp
                                              A   
@@ -208,10 +208,10 @@ Esta rotação é usada quando o fator de balanceamento de um nó se torna menor
                                              B
 ```
 
-<strong> - Rotação dupla direita_esquerda: </strong>
-Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do filho esquerdo do nó desequilibrado. A rotação direita-esquerda reequilibra a árvore realizando uma rotação simples à direita seguida de uma rotação simples à esquerda.
+<strong> - Rotação dupla esquerda_direira: </strong>
+Esta rotação é usada quando o fator de balanceamento de um nó se torna menor que -1 devido a uma inserção à esquerda do filho direito do nó desequilibrado. A rotação esquerda-direita reequilibra a árvore realizando uma rotação simples à esquerda seguida de uma rotação simples à direita.
 
-- Função: ```void Rotacao_dupla_esquerda_direita(folha_avl*& arvore)```.
+- Função: ```void Rotacao_dupla_direita_esquerda(folha_avl*& arvore)```.
 
 ```cpp
                                              C   
