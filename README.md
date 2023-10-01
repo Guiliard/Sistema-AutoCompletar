@@ -198,7 +198,7 @@ Essa rotação é usada quando o fator de balanceamento de um nó se torna menor
 <strong> - Rotação dupla direita_esquerda: </strong>
 Esta rotação é usada quando o fator de balanceamento de um nó se torna maior que 1 devido a uma inserção à direita do filho esquerdo do nó desequilibrado. A rotação direita-esquerda reequilibra a árvore realizando uma rotação simples à direita seguida de uma rotação simples à esquerda.
 
-- Função: ```void Rotacao_dupla_esquerda_direita(folha_avl*& arvore)```.
+- Função: ```void Rotacao_dupla_direita_esquerda(folha_avl*& arvore)```.
 
 ```cpp
                                              A   
@@ -211,7 +211,7 @@ Esta rotação é usada quando o fator de balanceamento de um nó se torna maior
 <strong> - Rotação dupla esquerda_direira: </strong>
 Esta rotação é usada quando o fator de balanceamento de um nó se torna menor que -1 devido a uma inserção à esquerda do filho direito do nó desequilibrado. A rotação esquerda-direita reequilibra a árvore realizando uma rotação simples à esquerda seguida de uma rotação simples à direita.
 
-- Função: ```void Rotacao_dupla_direita_esquerda(folha_avl*& arvore)```.
+- Função: ```void Rotacao_dupla_esquerda_direita(folha_avl*& arvore)```.
 
 ```cpp
                                              C   
